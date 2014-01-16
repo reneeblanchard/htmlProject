@@ -1,0 +1,235 @@
+body {
+	background: #CCC;
+	font-family: 'Actor', sans-serif;
+}
+
+/*
+*************
+HEADER 
+*************
+*/
+header {
+	background: #036
+}
+
+h1{
+	font-size: 40px;
+	padding: 15px 25px;
+	color: #CCC;
+}
+
+.card{
+	background: #369;
+	margin: 10px;
+
+	width:50%;
+}
+.mypic{
+	height: 200px;
+	width:200px;
+	padding: 30px;
+	float:left;
+	position: relative;
+	display: inline-block;
+}
+.text{
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+.name{
+font-size: 35px;
+padding-bottom: 10px;
+}
+h3{
+	color: #333;
+	padding-top: none;
+}
+.email{
+	font-size: 20px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.email:hover{
+	color: #FFDEAD;
+}
+
+/* 
+*************
+SM LINKS 
+*************
+*/
+.social a{
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	width:13%;
+	text-decoration: none;
+}
+.social a:hover{
+	border: 1px solid white;
+}
+.facebook{
+	background-color: #23476A;
+	padding-right: 1%;
+	
+}
+.twitter{
+	background-color: #00ABF0;
+	padding-right: 1%;
+}
+.google{
+	background-color: #A92A24;
+	padding-right: 1%;
+}
+.linkedin{
+	background-color: black;
+	padding-right: 0;
+}
+
+/* 
+*************
+HOBBIES
+*************
+*/
+.hobbies p{
+	font-size: 25px;
+	color: #CCC;
+	list-style: none;
+}
+.hobbies{
+	width:50%;
+	background: #369;
+	padding: 15px 30px;
+	border-bottom: 2px solid #CCC;
+	margin: 10px;
+}
+
+
+
+
+
+/* 
+*************
+VIDEO
+*************
+*/
+.video h2{
+	font-size: 25px;
+	color: #CCC;
+}
+.video{
+	background: #369;
+	padding: 15px 30px;
+	border-bottom: 2px solid #CCC;
+}
+
+/* 
+*************
+BACKGROUND
+*************
+*/
+.background h2{
+font-size: 25px;
+	color: #CCC;
+}
+.background{
+	background: #369;
+	padding: 15px 30px;
+	border-bottom: 2px solid #CCC;
+}
+label{
+	font-size: 19px;
+}
+textarea{
+	font-size: 15px;
+	resize: none;
+}
+.background a{
+	width:25%;
+	margin: auto;
+	display:block;
+	float:bottom;
+	background: #CCC;
+}
+
+/* 
+*************
+QUOTE
+*************
+*/
+.quote{
+	background: url(http://digitalizemoments.files.wordpress.com/2012/01/3-11.jpg);
+	padding: 15px 30px;
+	border-bottom: 2px solid #CCC;
+}
+blockquote{
+	font-size: 20px;
+	font-style: italic;
+	color: #CCC;
+	background: rgba(0,0,0,0.5);
+}
+
+/* 
+*************
+FRIENDS
+*************
+*/
+.eric .adam{
+	float:right;
+}
+/* 
+*************
+FOOTER
+*************
+*/
+footer{
+	background: #036;
+	float:bottom;
+}
+footer p{
+	color: #CCC;
+	padding: 15px;
+	bottom: 1000px;
+}
+.a{
+	width: 49%;
+	float: left;
+	border: 2px solid green;
+}
+.b{
+	width: 49%;
+	float: left;
+	border:2px solid black;
+}
+.c{
+	width: 49%;
+	float: left;
+}
+.d{
+	width: 49%;
+	float:left;
+}
+.e{
+	width: 49%;
+	float: left;
+}
+.g{
+	float: right;
+}
+.h{
+	float: right;
+}
+.i{
+	float: right;
+}
+
+.card{
+	width:40%;
+	display: inline-block;
+}
+div{
+	display: inline-block;
+
+}

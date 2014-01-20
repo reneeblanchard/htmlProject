@@ -1,0 +1,240 @@
+body {
+	background: #CCC;
+	font-family: 'Actor', sans-serif;
+}
+h3{
+	color: #333;
+	padding-top: none;
+}
+
+/*
+***************
+FIRST IDENTITY CARD
+***************
+*/
+.card {
+	display: inline-block;
+	width: 48%;
+	float: left;
+	border: 10px solid #CCC;
+	background: #369;
+}
+.name{
+	font-size: 35px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.mypic{
+	float: left;
+	height: 200px;
+	width:200px;
+	padding: 30px;
+	position: relative;
+	display: inline-block;
+}
+.info{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+}
+.info div a{
+	color: white;
+	position: relative;
+	border-radius: 5px;
+	height: 40px;
+	width:auto;
+	text-decoration: none;
+	font-size: 25px;
+}
+.info div a:hover{
+	border: 1px solid white;
+}
+i{
+	color: #D5A725;
+	padding-bottom: 15px;
+}
+.info a{
+	font-size: 20px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #D5A725;	
+}
+.info a:hover{
+	color:#FFDEAD;
+}
+/* SOCIAL MEDIA LINKS */
+.card div a img{
+	position: relative;
+	height:20px;
+	width:20px;
+	margin: 0 20px;
+	display: inline;
+}
+.card div div{
+	padding-bottom: 20px;
+}
+div .facebook{
+	background-color: #23476A;
+	height:40px;
+	padding-right: 1%;
+}
+div .twitter {
+	background-color: #00ABF0;
+	padding-right: 1%;
+}
+div .google{
+	background-color: #A92A24;
+	padding-right: 1%;
+}
+div .linkedin{
+	background-color: black;
+	padding-right: 0;
+}
+/*
+***************
+MY HOBBIES
+***************
+*/
+.one{
+	border-bottom: 2px solid #CCC;
+	background: #369;
+	padding: 15px 30px;
+	margin: 10px;
+	list-style: none;
+}
+.one h2{
+	font-size: 25px;
+	color: #CCC;
+}
+/*
+*************
+VIDEO
+*************
+*/
+video{
+	width:100%;
+	margin-left: 18px;
+}
+/*
+*************
+EDUCATION
+*************
+*/
+.checkbox li{
+	display: inline;
+}
+.checkbox .item{
+	padding-left: 75px;
+}
+.checkbox .php{
+	padding-left: 90px;
+}
+.checkbox .sql{
+	padding-left: 113px;
+}
+.checkbox .c{
+	padding-left: 95px;
+}
+select{
+	margin-left: 20px;
+	width: 50%;
+}
+textarea{
+	font-size: 15px;
+	resize: none;
+	width: 100%;
+}
+.button {
+	width:25%;
+	background: white;
+	height: auto;
+	display: block;
+	text-align: center;
+	font-style: bold;
+	margin-left: 35%;
+}
+/*
+*************
+QUOTE
+*************
+*/
+.quote{
+	background: url(http://digitalizemoments.files.wordpress.com/2012/01/3-11.jpg);
+	padding: 15px 30px;
+	border-bottom: 2px solid #CCC;
+}
+blockquote{
+	font-size: 20px;
+	font-style: italic;
+	color: #CCC;
+	background: rgba(0,0,0, .5);
+}
+
+/*
+*************
+HEADER 
+*************
+*/
+header {
+	background: #036;
+	width: 1300px;
+}
+
+h1{
+	font-size: 40px;
+	padding: 15px 25px;
+	color: #CCC;
+}
+
+
+/* 
+*************
+VIDEO
+*************
+*/
+video{
+	width:94%;
+	margin-left: 18px;
+}
+/* 
+*************
+FOOTER
+*************
+*/
+footer{
+	background: #036;
+	float:bottom;
+}
+footer p{
+	color: #CCC;
+	padding: 15px;
+	bottom: 1000px;
+}
+/* 
+*************
+BACKGROUND
+*************
+
+.background h2{
+font-size: 25px;
+	color: #CCC;
+}
+.background{
+	background: #369;
+	padding: 15px 30px;
+	border-bottom: 2px solid #CCC;
+}
+label{
+	font-size: 19px;
+}
+textarea{
+	font-size: 15px;
+	resize: none;
+}
+.background a{
+	width:25%;
+	margin: auto;
+	display:block;
+	float:bottom;
+	background: #CCC;
+}

@@ -6,19 +6,51 @@ h3{
 	color: #333;
 	padding-top: none;
 }
+li{
+	list-style: none;
+}
+.card{
+	background: #369;
+	margin: 10px;
+	overflow: auto;
+} 
+/*
+*************
+HEADER 
+*************
+*/
+header {
+	background: #036;
+	width: 100%;
+}
 
+h1{
+	font-size: 40px;
+	color: #CCC;
+}
+/*
+***************
+COLUMNS
+***************
+*/
+.colleagues {
+	width: 50%;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+.left {
+	width: 50%;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
 /*
 ***************
 FIRST IDENTITY CARD
 ***************
 */
-.card {
-	display: inline-block;
-	width: 48%;
-	float: left;
-	border: 10px solid #CCC;
-	background: #369;
-}
 .name{
 	font-size: 35px;
 	padding-bottom: 0;
@@ -33,79 +65,87 @@ FIRST IDENTITY CARD
 	display: inline-block;
 }
 .info{
-	position: relative;
-	display: inline-block;
-	text-align: left;
+	padding-bottom: 0;
 }
-.info div a{
-	color: white;
-	position: relative;
-	border-radius: 5px;
-	height: 40px;
-	width:auto;
-	text-decoration: none;
-	font-size: 25px;
-}
-.info div a:hover{
+.smlinks a:hover{
 	border: 1px solid white;
 }
-i{
+.email i{
 	color: #D5A725;
 	padding-bottom: 15px;
 }
+.email a {
+	color: #D5A725;
+}
 .info a{
 	font-size: 20px;
-	padding-left: 10px;
 	text-decoration: none;
-	color: #D5A725;	
 }
 .info a:hover{
 	color:#FFDEAD;
 }
+
 /* SOCIAL MEDIA LINKS */
-.card div a img{
-	position: relative;
-	height:20px;
-	width:20px;
+.card ul a i{
 	margin: 0 20px;
+}
+
+.smlinks{
+	padding-left: 0;
+	padding-bottom: 20px;
+	margin:0;
+	
+}
+.smlinks i{
+	color: white;
+	font-size: 20px;
+}
+.smlinks li{
 	display: inline;
 }
-.card div div{
-	padding-bottom: 20px;
+.smlinks a{
+	border-radius: 5px;
+	
+	height: 40px;
+	width: 13%;
 }
-div .facebook{
+.facebook{
 	background-color: #23476A;
-	height:40px;
 	padding-right: 1%;
 }
-div .twitter {
+.twitter {
 	background-color: #00ABF0;
 	padding-right: 1%;
 }
-div .google{
+.google{
 	background-color: #A92A24;
 	padding-right: 1%;
 }
-div .linkedin{
+.linkedin{
 	background-color: black;
-	padding-right: 0;
 }
 /*
 ***************
 MY HOBBIES
 ***************
 */
-.one{
+
+.hobbies{
+	list-style: none;
+	padding: 15px 30px;
+}
+.hobby, .video{
 	border-bottom: 2px solid #CCC;
+}
+.background, .hobby, .video{
 	background: #369;
 	padding: 15px 30px;
-	margin: 10px;
 }
-.one h2{
+.hobbies h2{
 	font-size: 25px;
 	color: #CCC;
 }
-.hobbies li{
+.hobby li{
 	list-style: none;
 }
 /*
@@ -114,7 +154,7 @@ VIDEO
 *************
 */
 video{
-	width:100%;
+	width:96%;
 	margin-left: 18px;
 }
 /*
@@ -122,23 +162,14 @@ video{
 EDUCATION
 *************
 */
-.checkbox li{
-	display: inline;
+table{
+	border: 0;
+	width: 100%;
 }
-.checkbox .item{
-	padding-left: 75px;
-}
-.checkbox .php{
-	padding-left: 90px;
-}
-.checkbox .sql{
-	padding-left: 113px;
-}
-.checkbox .c{
-	padding-left: 95px;
+.background label{
+	padding-right: 20px;
 }
 select{
-	margin-left: 20px;
 	width: 50%;
 }
 textarea{
@@ -164,7 +195,6 @@ QUOTE
 	background: url(http://digitalizemoments.files.wordpress.com/2012/01/3-11.jpg);
 	padding: 15px 30px;
 	border-bottom: 2px solid #CCC;
-	height: 90px;
 }
 blockquote{
 	font-size: 20px;
@@ -173,32 +203,6 @@ blockquote{
 	background: rgba(0,0,0, .5);
 }
 
-/*
-*************
-HEADER 
-*************
-*/
-header {
-	background: #036;
-	width: 1300px;
-}
-
-h1{
-	font-size: 40px;
-	padding: 15px 25px;
-	color: #CCC;
-}
-
-
-/* 
-*************
-VIDEO
-*************
-*/
-video{
-	width:94%;
-	margin-left: 18px;
-}
 /* 
 *************
 FOOTER
@@ -206,7 +210,7 @@ FOOTER
 */
 footer{
 	background: #036;
-	width: 1300px;
+	width: 100%;
 	clear: both;
 }
 footer p{

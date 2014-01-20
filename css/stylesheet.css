@@ -100,11 +100,13 @@ MY HOBBIES
 	background: #369;
 	padding: 15px 30px;
 	margin: 10px;
-	list-style: none;
 }
 .one h2{
 	font-size: 25px;
 	color: #CCC;
+}
+.hobbies li{
+	list-style: none;
 }
 /*
 *************
@@ -162,6 +164,7 @@ QUOTE
 	background: url(http://digitalizemoments.files.wordpress.com/2012/01/3-11.jpg);
 	padding: 15px 30px;
 	border-bottom: 2px solid #CCC;
+	height: 90px;
 }
 blockquote{
 	font-size: 20px;
@@ -203,38 +206,12 @@ FOOTER
 */
 footer{
 	background: #036;
-	float:bottom;
+	width: 1300px;
+	clear: both;
 }
 footer p{
 	color: #CCC;
 	padding: 15px;
-	bottom: 1000px;
-}
-/* 
-*************
-BACKGROUND
-*************
+	text-align: right;
 
-.background h2{
-font-size: 25px;
-	color: #CCC;
-}
-.background{
-	background: #369;
-	padding: 15px 30px;
-	border-bottom: 2px solid #CCC;
-}
-label{
-	font-size: 19px;
-}
-textarea{
-	font-size: 15px;
-	resize: none;
-}
-.background a{
-	width:25%;
-	margin: auto;
-	display:block;
-	float:bottom;
-	background: #CCC;
 }

@@ -28,6 +28,9 @@ h1{
 	font-size: 40px;
 	color: #CCC;
 }
+header h1{
+	padding: 15px 25px;
+}
 /*
 ***************
 COLUMNS

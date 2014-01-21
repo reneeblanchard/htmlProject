@@ -44,6 +44,10 @@ COLUMNS
 	margin: 0;
 }
 
+/*
+TODO: if you have this class called left you mind want the other one named right instaed of
+colleagues or the other way round. Just be consistent;
+*/
 .left {
 	width: 50%;
 	float: left;
@@ -55,12 +59,18 @@ COLUMNS
 FIRST IDENTITY CARD
 ***************
 */
-.name{
+.name {
 	font-size: 35px;
 	padding-bottom: 0;
 	padding-left: 0;
 }
-.mypic{
+.mypic {
+	/*
+	TODO: 
+	Float and display: inline-block should probably not be used together;
+	When you reach this comment give me a shout to show you what i mean...
+	:-)
+	 */
 	float: left;
 	height: 200px;
 	width:200px;
@@ -90,6 +100,15 @@ FIRST IDENTITY CARD
 }
 
 /* SOCIAL MEDIA LINKS */
+
+/*
+TODO:
+It is ok to target one element by it's element type (eg. .info a)
+However do not overdo it like here (.card ul a i)
+Always better to add classes to the elements:
+1. Helps the browser find them faster
+2. Keeps your style decoupled from your markup
+ */
 .card ul a i{
 	margin: 0 20px;
 }

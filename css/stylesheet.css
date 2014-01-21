@@ -134,12 +134,10 @@ MY HOBBIES
 	list-style: none;
 	padding: 15px 30px;
 }
-.hobby, .video{
-	border-bottom: 2px solid #CCC;
-}
 .background, .hobby, .video{
 	background: #369;
 	padding: 15px 30px;
+	border-bottom: 2px solid #CCC;
 }
 .hobbies h2{
 	font-size: 25px;
